@@ -8,10 +8,10 @@ const router = Router()
 router.route("/register").post(
     upload.fields([
         {
-            name: "avater",
+            name: "avatar",
             maxCount: 1
         },{
-            nmae: "coverImage",
+            name: "coverImage",
             maxCount: 1
         }
     ]),
